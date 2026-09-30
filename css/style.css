@@ -1,0 +1,82 @@
+body {
+    position: relative;
+}
+
+header {
+    background-color: rgb(255, 0, 0);
+}
+
+section {
+    background-color: rgb(171, 31, 101);
+}
+
+article {
+    background-color: rgb(157, 0, 255);
+}
+
+aside {
+    background-color: rgb(115, 161, 204);
+    max-width: 500px;
+}
+
+div {
+    background-color: rgb(58, 169, 156);
+    max-width: 80%;
+}
+
+.colorbox {
+    /* padding: 5px; */
+    /* margin: 50px; */
+    /* display: block; */
+    max-width: 100%;
+}
+
+
+.boxy.square {
+    border: 2px solid rgb(105, 13, 119);
+    border-radius: 15px;
+}
+
+ul {
+    list-style-type: none;  /*removes the bullets from the list*/
+    margin: 0;  /* removes default margin*/
+    padding: 0; /* removes default padding*/
+}
+li {
+    display: inline;  
+    /* makes the list items sit next to each other */
+    /* float: left; */
+}
+
+li a {
+    display: block; 
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #f9d6d6;
+}
+
+h2 {
+    color: rgb(143, 9, 9);
+    margin: 10px 20px 0;
+}
+
+h2 {
+    text-color: rgb(143, 9, 9);
+    margin: 10px 0 20px 20px;
+}
+
+h2 {
+    color: rgb(143, 9, 9);
+    margin: 10px 20px 20px 0;
+}
+
+h2 {
+    color: rgb(255, 226, 3);
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
